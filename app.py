@@ -1,8 +1,7 @@
-
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
 import pickle
 import pandas as pd
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 
 MODEL_PATH = "models/best_purchase_prediction_model.pkl"
 PREPROCESSOR_PATH = "models/deployment_preprocessor.pkl"
